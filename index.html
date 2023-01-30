@@ -9,23 +9,28 @@
           rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/Style.css">
-
+    <script src="js/script.js" defer></script>
+ 
 </head>
 <body>
-<header>
-    <nav>
-        <div class="wrapper">
-            <p class="logo">MA</p>
-            <ul>
-                <li><a href="">Nouvelles</a></li>
-                <li><a href="">Les factions</a></li>
-                <li><a href="">Magasin</a></li>
-                <li><a href="">Notre équipe</a></li>
-            </ul>
-            <a href="download.html"><button>Télécharger</button></a>
-        </div>
-    </nav>
-</header>
+
+    <template id="header">
+        <header>
+            <nav>
+                <div class="wrapper">
+                    <p class="logo">MA</p>
+                    <ul>
+                        <li><a href="#nouvelle">Nouvelles</a></li>
+                        <li><a href="#faction">Les factions</a></li>
+                        <li><a href="">Magasin</a></li>
+                        <li><a href="">Notre équipe</a></li>
+                    </ul>
+                    <a href="download.html"><button>Télécharger</button></a>
+                </div>
+            </nav>
+        </header>
+    </template>
+
 
 <section class="hero">
     <div class="wrapper">
@@ -36,7 +41,7 @@
     </div>
 </section>
 
-<section class="nouvelle">
+<section class="nouvelle" id="nouvelle">
     <div class="wrapper">
         <article>
             <img src="images/ImageNouvelle.png" alt="">
@@ -57,7 +62,7 @@
             </aside>
 
             <aside>
-                <h3>Découvrez la ville de Frusea et son passé sombre</h3>
+                <h3>Découvrez un passé oublié</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et
                     dolore...</p>
@@ -67,7 +72,7 @@
     </div>
 </section>
 
-<section class="faction">
+<section class="faction" id="faction">
     <div class="wrapper">
         <h2>Les Factions Principales</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -106,6 +111,8 @@
     </div>
 </section>
 
+
+<template>
 <footer>
     <div class="wrapper">
         <nav>
@@ -125,6 +132,7 @@
         </nav>
     </div>
 </footer>
+</template>
 
 </body>
 </html>
