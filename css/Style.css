@@ -1,0 +1,264 @@
+/* BASE */
+html{
+    box-sizing: border-box;
+}
+
+*,*:after,*:before{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik", serif;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* éléments --------------------------------------------*/
+
+header{
+    background: #101413;
+}
+
+a:hover{
+    color: #00C2FF;
+}
+
+.nouvelle a{
+    font-size: 18px;
+    font-style: italic;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+aside a{
+    color: black;
+}
+
+article{
+    color: white;
+}
+
+aside{
+    background-color: white;
+    padding: 50px;
+}
+
+.nouvelle article{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 154px;
+    padding-right: 154px;
+    background-color: black;
+}
+
+.grandeNouvelle a{
+    color: white;
+}
+
+.grandeNouvelle p{
+    margin-top: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+h1{
+    margin-top: 0;
+    font-size: 100px;
+    font-family: "Cinzel decorative",serif;
+    font-weight: bold;
+    color: #00C2FF;
+    -webkit-text-stroke: 3px black;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 64px;
+    font-family: "Cinzel decorative", serif;
+}
+
+h3{
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+h4{
+    color: white;
+    width: 592px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+p, li{
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.faction p{
+    color: white;
+    margin-bottom: 50px;
+}
+
+.wrapper>p{
+    text-align: center;
+    width: 582px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.faction h2{
+    color: #00C2FF;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.faction h3{
+    color: #00C2FF;
+}
+
+.faction article{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    border-radius: 5px;
+    padding: 7px 40px;
+    font-size: 18px;
+    max-height: 35px;
+    background-color: #00C2FF;
+    border: none;
+    justify-self: right;
+}
+
+img{
+    max-height: 370px;
+}
+
+/* Component ----------------------------------------------*/
+
+header .wrapper{
+    display: flex;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    width: 482px;
+    padding: 0;
+    margin-right: 450px;
+    gap: 40px;
+}
+
+header li{
+    white-space: nowrap;
+}
+
+header nav{
+    padding: 15px 124px;
+}
+
+.logo{
+    font-family: "Cinzel decorative", serif;
+    font-size: 52px;
+    color: #00C2FF;
+    margin: 15px 38px 15px 0;
+    /*-webkit-text-stroke: 1px black;*/
+}
+
+.hero{
+    height: 723px;
+    background-image: url("../images/Background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 191px;
+}
+
+.hero .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1{
+    margin-bottom: 0;
+
+}
+
+.nouvelle{
+    height: 887px;
+    background-color: #F2F2F2;
+    padding: 100px 135px;
+}
+
+.faction{
+    background-color: #171717;
+    height: 1606px;
+    padding-top: 100px;
+    padding-bottom: 88px;
+}
+
+.ImageDroite{
+    float: right;
+    height: 360px;
+    width: 500px;
+    object-fit: cover;
+    margin-left: 100px;
+}
+
+.ImageGauche{
+    margin-right: 100px;
+    height: 360px;
+    width: 500px;
+}
+
+.ArticleDroite{
+    padding-left: 100px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.ArticleGauche{
+    padding-right: 70px;
+}
+
+.faction article div{
+    width: 500px;
+}
+
+.PetiteNouvelle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+    column-gap: 30px;
+}
+
+footer ul:first-of-type{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+}
