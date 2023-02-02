@@ -161,7 +161,8 @@ header ul{
     justify-content: space-between;
     width: 482px;
     padding: 0;
-    margin-right: 450px;
+    margin-right: 430px;
+    margin-left: 20px;
     gap: 40px;
 }
 
@@ -178,7 +179,6 @@ header nav{
     font-size: 52px;
     color: #00C2FF;
     margin: 15px 38px 15px 0;
-    /*-webkit-text-stroke: 1px black;*/
 }
 
 .hero{
@@ -261,4 +261,23 @@ footer ul:first-of-type{
     justify-content: center;
     gap: 25px;
 
+}
+
+
+/* DOWNLOAD */
+
+.achat{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.download p{
+    color: white;
+    text-align: justify;
+}
+
+.download a{
+    position: relative;
+    top: 80px;
+    left: 200px;
 }
