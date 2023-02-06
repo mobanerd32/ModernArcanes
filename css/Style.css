@@ -98,6 +98,7 @@ h4{
     text-align: center;
     margin-top: 70px;
     margin-bottom: 70px;
+    font-size: 20px;
 }
 
 p, li{
@@ -138,8 +139,8 @@ p, li{
 button{
     border-radius: 5px;
     padding: 7px 40px;
-    font-size: 18px;
-    max-height: 35px;
+    font-size: 25px;
+    max-height: 50px;
     background-color: #00C2FF;
     border: none;
     justify-self: right;
@@ -210,7 +211,6 @@ header nav{
 
 .faction{
     background-color: #171717;
-    height: 1606px;
     padding-top: 100px;
     padding-bottom: 88px;
 }
