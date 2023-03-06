@@ -33,9 +33,15 @@ a:hover{
     font-style: italic;
 }
 
-nav a{
+header a{
     text-decoration: none;
     color: white;
+}
+
+footer a {
+    color: black;
+    font-style: none;
+    text-decoration: none;
 }
 
 aside a{
@@ -250,7 +256,8 @@ header nav{
     column-gap: 30px;
 }
 
-footer ul:first-of-type{
+.premierFooter{
+    color: black;
     display: flex;
     align-items: center;
     justify-content: space-around;

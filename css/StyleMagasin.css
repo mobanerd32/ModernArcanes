@@ -1,0 +1,19 @@
+/*--- BASE ---*/
+html{
+    box-sizing: border-box;
+}
+
+*,*:after,*:before{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik", serif;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
