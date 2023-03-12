@@ -1,39 +1,41 @@
 /* BASE */
-html{
+html {
     box-sizing: border-box;
 }
 
-*,*:after,*:before{
+*,
+*:after,
+*:before {
     box-sizing: inherit;
 }
 
-body{
+body {
     padding: 0;
     margin: 0;
     font-family: "Rubik", serif;
 }
 
-.wrapper{
+.wrapper {
     max-width: 1200px;
     margin: 0 auto;
 }
 
 /* éléments --------------------------------------------*/
 
-header{
+header {
     background: #101413;
 }
 
-a:hover{
+a:hover {
     color: #00C2FF;
 }
 
-.nouvelle a{
+.nouvelle a {
     font-size: 18px;
     font-style: italic;
 }
 
-header a{
+header a {
     text-decoration: none;
     color: white;
 }
@@ -44,20 +46,20 @@ footer a {
     text-decoration: none;
 }
 
-aside a{
+aside a {
     color: black;
 }
 
-article{
+article {
     color: white;
 }
 
-aside{
+aside {
     background-color: white;
     padding: 50px;
 }
 
-.nouvelle article{
+.nouvelle article {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-column-gap: 154px;
@@ -65,40 +67,40 @@ aside{
     background-color: black;
 }
 
-.grandeNouvelle a{
+.grandeNouvelle a {
     color: white;
 }
 
-.grandeNouvelle p{
+.grandeNouvelle p {
     margin-top: 0;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-h1{
+h1 {
     margin-top: 0;
     font-size: 100px;
-    font-family: "Cinzel decorative",serif;
+    font-family: "Cinzel decorative", serif;
     font-weight: bold;
     color: #00C2FF;
     -webkit-text-stroke: 3px black;
 }
 
-h2{
+h2 {
     font-weight: normal;
     font-size: 64px;
     font-family: "Cinzel decorative", serif;
 }
 
-h3{
+h3 {
     font-family: "Rubik", sans-serif;
     font-size: 25px;
     font-weight: bolder;
 }
 
-h4{
+h4 {
     color: white;
     width: 592px;
     text-align: center;
@@ -107,25 +109,26 @@ h4{
     font-size: 20px;
 }
 
-p, li{
+p,
+li {
     font-family: "Rubik", sans-serif;
     font-size: 18px;
     font-weight: normal;
 }
 
-.faction p{
+.faction p {
     color: white;
     margin-bottom: 50px;
 }
 
-.wrapper>p{
+.wrapper>p {
     text-align: center;
     width: 582px;
     margin-right: auto;
     margin-left: auto;
 }
 
-.faction h2{
+.faction h2 {
     color: #00C2FF;
     font-weight: bold;
     margin-top: 0;
@@ -133,16 +136,16 @@ p, li{
     text-align: center;
 }
 
-.faction h3{
+.faction h3 {
     color: #00C2FF;
 }
 
-.faction article{
+.faction article {
     display: flex;
     align-items: center;
 }
 
-button{
+button {
     border-radius: 5px;
     padding: 7px 40px;
     font-size: 25px;
@@ -152,18 +155,18 @@ button{
     justify-self: right;
 }
 
-img{
+img {
     max-height: 370px;
 }
 
 /* Component ----------------------------------------------*/
 
-header .wrapper{
+header .wrapper {
     display: flex;
     align-items: center;
 }
 
-header ul{
+header ul {
     display: flex;
     justify-content: space-between;
     width: 482px;
@@ -173,22 +176,22 @@ header ul{
     gap: 40px;
 }
 
-header li{
+header li {
     white-space: nowrap;
 }
 
-header nav{
+header nav {
     padding: 15px 124px;
 }
 
-.logo{
+.logo {
     font-family: "Cinzel decorative", serif;
     font-size: 52px;
     color: #00C2FF;
     margin: 15px 38px 15px 0;
 }
 
-.hero{
+.hero {
     height: 723px;
     background-image: url("../images/Background.jpg");
     background-repeat: no-repeat;
@@ -197,31 +200,32 @@ header nav{
     padding: 200px 191px;
 }
 
-.hero .wrapper{
+.hero .wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.hero h1{
+.hero h1 {
     margin-bottom: 0;
 
 }
 
-.nouvelle{
+.nouvelle {
     height: 887px;
     background-color: #F2F2F2;
     padding: 100px 135px;
+
 }
 
-.faction{
+.faction {
     background-color: #171717;
     padding-top: 100px;
     padding-bottom: 88px;
 }
 
-.ImageDroite{
+.ImageDroite {
     float: right;
     height: 360px;
     width: 500px;
@@ -229,41 +233,41 @@ header nav{
     margin-left: 100px;
 }
 
-.ImageGauche{
+.ImageGauche {
     margin-right: 100px;
     height: 360px;
     width: 500px;
 }
 
-.ArticleDroite{
+.ArticleDroite {
     padding-left: 100px;
     margin-top: 70px;
     margin-bottom: 70px;
 }
 
-.ArticleGauche{
+.ArticleGauche {
     padding-right: 70px;
 }
 
-.faction article div{
+.faction article div {
     width: 500px;
 }
 
-.PetiteNouvelle{
+.PetiteNouvelle {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 40px;
     column-gap: 30px;
 }
 
-.premierFooter{
+.premierFooter {
     color: black;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.copyright{
+.copyright {
     display: flex;
     justify-content: center;
     gap: 25px;
@@ -273,17 +277,17 @@ header nav{
 
 /* DOWNLOAD */
 
-.achat{
+.achat {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.download p{
+.download p {
     color: white;
     text-align: justify;
 }
 
-.download a{
+.download a {
     position: relative;
     top: 80px;
     left: 200px;

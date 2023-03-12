@@ -9,7 +9,7 @@ header.innerHTML = `
         <ul>
             <li><a href="nouvelle.html">Nouvelles</a></li>
             <li><a href="faction.html">Les factions</a></li>
-            <li><a href="Section magasin/Magasin.html">Magasin</a></li>
+            <li><a href="Magasin.html">Magasin</a></li>
             <li><a href="">Notre équipe</a></li>
         </ul>
         <a href="download.html"><button>Télécharger</button></a>
